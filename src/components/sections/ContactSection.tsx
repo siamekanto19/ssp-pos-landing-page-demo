@@ -8,7 +8,7 @@ export default function ContactSection() {
       id="contact"
       className="px-4 bg-linear-to-br from-orange-50/20 via-gray-50/30 to-orange-50/15"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <div className="text-center mb-20">
           <div className="text-5xl font-bold mb-8 mx-auto flex justify-center">
             <Image
