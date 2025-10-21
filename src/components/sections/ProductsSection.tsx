@@ -112,12 +112,6 @@ export default function ProductsSection() {
               >
                 Coming Q3 2026
               </div>
-              <div
-                className="absolute top-6 right-6 text-white px-4 py-2 rounded-full text-sm font-bold"
-                style={{ backgroundColor: "rgb(255, 138, 5)" }}
-              >
-                COMING SOON
-              </div>
             </CardContent>
           </Card>
         </div>

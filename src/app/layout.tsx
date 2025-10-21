@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-  weight: ["400", "700"],
-});
 
 export const metadata: Metadata = {
   title: "SSPPOS - Complete Restaurant Management Solution | Scan, Split, Pay",
@@ -113,9 +106,7 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body
-        className={`${outfit.className} antialiased bg-background text-foreground`}
-      >
+      <body className={`antialiased bg-background text-foreground`}>
         {children}
         <Toaster />
       </body>

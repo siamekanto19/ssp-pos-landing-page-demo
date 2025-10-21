@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-t from-orange-50/20 to-white border-gray-200 py-20 mt-[3px]">
+    <footer className="bg-linear-to-t from-orange-50/20 to-white border-gray-200 py-20 mt-[3px]">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid md:grid-cols-4 gap-12">
           <div>
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="hover:text-[rgb(255,138,5)] transition-colors"
                 >
                   Contact
@@ -115,8 +115,26 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-200 mt-16 pt-12 text-center text-gray-600 text-lg">
-          <p>© 2024 SSPPOS. All rights reserved.</p>
+        <div className="border-t border-gray-200 mt-16 pt-12">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-gray-600 text-lg">
+              © 2024 SSPPOS. All rights reserved.
+            </p>
+            <div className="flex gap-6">
+              <a
+                href="/privacy"
+                className="text-gray-600 text-lg hover:text-[rgb(255,138,5)] transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="/terms"
+                className="text-gray-600 text-lg hover:text-[rgb(255,138,5)] transition-colors"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
