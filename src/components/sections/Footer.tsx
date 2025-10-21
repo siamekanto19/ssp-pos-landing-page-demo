@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-t from-orange-50/20 to-white border-t border-gray-200 py-20">
+    <footer className="bg-gradient-to-t from-orange-50/20 to-white border-gray-200 py-20 mt-[3px]">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid md:grid-cols-4 gap-12">
           <div>
